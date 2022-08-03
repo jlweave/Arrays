@@ -48,3 +48,7 @@ puts grades_precentages.unshift
 puts tempurature.unshift
 
 puts bools.unshift
+
+# Index position are the numbers assigned to each element in an array starting with 0 and going from there.
+# Example: name = [ "Sally", "Bob", "Dan", "Stacey"]
+# In this array Sally's index number is 0, Bob 1, Dan 2, and Stacey 3.
