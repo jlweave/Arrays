@@ -1,5 +1,5 @@
 # string, names of employees
-name = [ "Sally", "Bob", "Dan" "Stacey"]
+name = [ "Sally", "Bob", "Dan", "Stacey"]
 # integers, students grades
 grades_precentages = [90, 99, 100, 85]
 # floats, outside temputature
@@ -7,54 +7,44 @@ tempurature = [85.2, 99.5, 60.4, 45.3]
 # booleans, will always be either true or false
 bools = [TRUE, FALSE, TRUE, TRUE]
 
-# pop
-name.pop
-puts name
+# pop gets rid of the last element of the array
+puts "pop#############################"
+puts name.pop
 
-grades_precentages.pop
-puts grades_precentages
+puts grades_precentages.pop
 
-tempurature.pop
-puts tempurature
+puts tempurature.pop
 
-bools.pop
-puts bools
+puts bools.pop
 
-# push
-name.push
-puts name
+# push adds the extra element to the array but force
+puts "push#############################"
+puts name.push("Kevin", "Jessica")
 
-grades_precentages.push
-puts grades_precentages
+puts grades_precentages.push(96, 75, 97)
 
-tempurature.push
-puts tempurature
+puts tempurature.push(85.4, 64.3)
 
-bools.push
-puts bools
+puts bools.push(FALSE, FALSE)
 
-# shift
-name.shift
-puts name
+# shift takes the first element out of the array and returns that removed element
+puts "shift#############################"
+puts name.shift
 
-grades_precentages.shift
-puts grades_precentages
+puts grades_precentages.shift
 
-tempurature.shift
-puts tempurature
 
-bools.shift
-puts bools
+puts tempurature.shift
 
-# unshift
-name.unshift
-puts name
+puts bools.shift
 
-grades_precentages.unshift
-puts grades_precentages
+# unshift returns the array to the last original form after conducting the shift method
+puts "unshift#############################"
+puts name.unshift
 
-tempurature.unshift
-puts tempurature
 
-bools.unshift
-puts bools
+puts grades_precentages.unshift
+
+puts tempurature.unshift
+
+puts bools.unshift
