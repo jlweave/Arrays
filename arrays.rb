@@ -52,3 +52,9 @@ puts bools.unshift
 # Index position are the numbers assigned to each element in an array starting with 0 and going from there.
 # Example: name = [ "Sally", "Bob", "Dan", "Stacey"]
 # In this array Sally's index number is 0, Bob 1, Dan 2, and Stacey 3.
+
+# Reverse method is a simple method that takes the origanal array and reverse the order.
+# Example:
+statement = "RubyRulz"
+puts statement.reverse
+# Answer will be zluRybuR
